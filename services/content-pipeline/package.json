@@ -1,0 +1,9 @@
+{
+  "name": "@searchsaga/content-pipeline",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "echo 'Python pipeline — run manually with: python3 -m searchsaga_pipeline.main'",
+    "type-check": "echo 'Use mypy or pyright for Python type checking'"
+  }
+}

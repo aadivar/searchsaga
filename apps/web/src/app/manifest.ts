@@ -1,0 +1,28 @@
+import type { MetadataRoute } from "next";
+
+export default function manifest(): MetadataRoute.Manifest {
+  return {
+    name: "SearchSaga — Connecting the Dots",
+    short_name: "SearchSaga",
+    description:
+      "An infinite-scroll knowledge experience for curious minds.",
+    start_url: "/",
+    scope: "/",
+    display: "standalone",
+    background_color: "#FFFBF5",
+    theme_color: "#FFFBF5",
+    icons: [
+      {
+        src: "/icons/icon-192.png",
+        sizes: "192x192",
+        type: "image/png",
+      },
+      {
+        src: "/icons/icon-512.png",
+        sizes: "512x512",
+        type: "image/png",
+        purpose: "maskable",
+      },
+    ],
+  };
+}

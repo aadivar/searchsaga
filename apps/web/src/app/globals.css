@@ -1,0 +1,78 @@
+@import "tailwindcss";
+
+/*
+ * SearchSaga Design Tokens
+ * Warm white default theme with vibrant accents.
+ * Dark mode via data-theme attribute (next-themes).
+ *
+ * Palette: oranges, teals, purples, yellows on white/cream backgrounds.
+ * Target audience: children 8-12. Large text, high contrast, warm feeling.
+ */
+
+@custom-variant dark (&:where([data-theme="dark"], [data-theme="dark"] *));
+
+@theme {
+  /* --- Light theme (default) --- */
+  --color-background: #FFFBF5;
+  --color-surface: #FFFFFF;
+  --color-surface-raised: #FFF8ED;
+  --color-foreground: #1A1A2E;
+  --color-muted: #6B7280;
+  --color-border: #E5E2DA;
+
+  /* --- Warm accent palette --- */
+  --color-orange: #F97316;
+  --color-orange-light: #FFEDD5;
+  --color-teal: #14B8A6;
+  --color-teal-light: #CCFBF1;
+  --color-purple: #8B5CF6;
+  --color-purple-light: #EDE9FE;
+  --color-yellow: #EAB308;
+  --color-yellow-light: #FEF9C3;
+
+  /* --- Domain colors --- */
+  --color-domain-science: #3B82F6;
+  --color-domain-technology: #8B5CF6;
+  --color-domain-nature: #22C55E;
+  --color-domain-math: #F97316;
+  --color-domain-human-systems: #EF4444;
+  --color-domain-art: #EC4899;
+
+  /* --- Typography --- */
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Inter", ui-sans-serif, system-ui, sans-serif;
+
+  /* --- Spacing / Radius --- */
+  --radius-card: 1rem;
+  --radius-button: 0.75rem;
+}
+
+/* Dark mode overrides */
+@layer base {
+  [data-theme="dark"] {
+    --color-background: #0F0F1A;
+    --color-surface: #1A1A2E;
+    --color-surface-raised: #252540;
+    --color-foreground: #F5F5F5;
+    --color-muted: #9CA3AF;
+    --color-border: #2D2D4A;
+  }
+}
+
+/* Base styles */
+@layer base {
+  html {
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+    min-height: 100dvh;
+    /* Minimum 16px font — kids with varying reading abilities */
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+}

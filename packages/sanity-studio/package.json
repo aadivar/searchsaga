@@ -1,0 +1,31 @@
+{
+  "name": "@searchsaga/sanity",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./src/config.ts",
+      "default": "./src/config.ts"
+    },
+    "./client": {
+      "types": "./src/client.ts",
+      "default": "./src/client.ts"
+    },
+    "./schemas": {
+      "types": "./src/schemas/index.ts",
+      "default": "./src/schemas/index.ts"
+    }
+  },
+  "scripts": {
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "sanity": "^3.88.0",
+    "next-sanity": "^9.8.0",
+    "@sanity/vision": "^3.88.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0"
+  }
+}

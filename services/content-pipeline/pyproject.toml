@@ -1,0 +1,26 @@
+[project]
+name = "searchsaga-pipeline"
+version = "0.0.1"
+description = "AI content pipeline for SearchSaga — 7 agents + 2 guardians + voice"
+requires-python = ">=3.11"
+dependencies = [
+    "anthropic>=0.40.0",
+    "httpx>=0.27.0",
+    "pydantic>=2.10.0",
+    "python-dotenv>=1.0.0",
+]
+
+[project.optional-dependencies]
+voice = ["elevenlabs>=1.0.0"]
+images = ["openai>=1.50.0"]
+all = ["elevenlabs>=1.0.0", "openai>=1.50.0"]
+
+[project.scripts]
+searchsaga = "searchsaga_pipeline.main:main"
+
+[build-system]
+requires = ["setuptools>=75.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
