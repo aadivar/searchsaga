@@ -6,6 +6,24 @@ SearchSaga turns subjects into connected adventures. Every topic unfolds as a 7-
 
 > *What if the camera is connected to glass, which is connected to sand, which is connected to microchips?*
 
+**Free forever for kids. No subscriptions. No paywalls. No pro plans.**
+
+---
+
+## Table of Contents
+
+- [The Vision](#the-vision)
+- [Demo](#demo)
+- [Tech Stack](#tech-stack)
+- [Roadmap](#roadmap)
+- [Building in Open](#building-in-open)
+- [Sponsorship Needed](#sponsorship-needed)
+- [Contributors Welcome](#contributors-welcome)
+- [Explore Further](#explore-further)
+- [Community & Feedback](#community--feedback)
+- [Development](#development)
+- [License](#license)
+
 ---
 
 ## The Vision
@@ -137,7 +155,7 @@ This isn't a startup with a secret roadmap. It's an experiment in whether AI can
 
 ## Sponsorship Needed
 
-SearchSaga is a passion project with real infrastructure costs. We need sponsors and credits to keep building at the quality kids deserve.
+SearchSaga is free forever for kids — no pro plans, no paywalls, no subscriptions. But building at this quality has real infrastructure costs. We need sponsors and credits to keep it that way.
 
 | What | Why | Status |
 |------|-----|--------|
@@ -153,7 +171,7 @@ SearchSaga is a passion project with real infrastructure costs. We need sponsors
 - API credit grants, pro-plan sponsorships, or open-source program invitations all help
 - Every sponsor gets credited in the app and in this README
 
-> If your company builds tools that can make education better, we'd love to partner. This project reaches zero revenue — every credit goes directly into content for kids.
+> SearchSaga will never charge kids or families. If your company builds tools that can make education better, we'd love to partner. Every credit goes directly into content for kids.
 
 ---
 
