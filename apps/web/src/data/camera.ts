@@ -5,6 +5,7 @@ export interface Cousin {
   hook: string;
   domain: string;
   emoji: string;
+  topicSlug?: string;
 }
 
 export interface DemoCard {
@@ -112,6 +113,7 @@ export const cameraCards: DemoCard[] = [
       hook: "The lenses that made the camera obscura work came from glass-makers in Venice — who were literally imprisoned on an island so their secrets couldn't escape.",
       domain: "technology",
       emoji: "🔮",
+      topicSlug: "glass",
     },
   },
   {
