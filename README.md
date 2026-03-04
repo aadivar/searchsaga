@@ -123,9 +123,104 @@ searchsaga/
 
 ---
 
+## Building in Open
+
+SearchSaga is built entirely in the open — every commit, every decision, every pivot. We believe the best tools for kids should be shaped by the community that cares about them: parents, educators, developers, and the kids themselves.
+
+This isn't a startup with a secret roadmap. It's an experiment in whether AI can make learning genuinely magical — and we want you to hold us accountable to that standard.
+
+- Every feature is discussed in [Issues](../../issues) before it's built
+- Architecture decisions are documented in `docs/SPECS.md`
+- Progress is tracked transparently in `docs/PROGRESS.md`
+
+---
+
+## Sponsorship Needed
+
+SearchSaga is a passion project with real infrastructure costs. We need sponsors and credits to keep building at the quality kids deserve.
+
+| What | Why | Status |
+|------|-----|--------|
+| **Claude Max / Anthropic API** | Powers the 7-agent content pipeline — Researcher, Storyteller, Card Architect, Connector, Editor, Visual Architect, Publisher. Every story requires multiple Claude calls for fact-checking, age-appropriate rewriting, and safety review. | Needed |
+| **ElevenLabs** | Warm, expressive TTS narration per card — the "older cousin" voice that reads stories aloud. Essential for younger readers (ages 8–9) and accessibility. | Needed |
+| **Sanity.io** | Headless CMS hosting for structured story content — cards, stages, cousin links, media. The editorial backbone that lets non-developers contribute stories. | Needed |
+| **Grok (xAI)** | Image generation for visual cards — infographics, illustrated moments, and topic cover art. Style-locked prompts ensure kid-safe, consistent visuals. | Needed |
+| **Vercel / Hosting** | Frontend deployment, edge caching, preview deployments for PR reviews. | Needed |
+| **Domain & CDN** | Custom domain, asset delivery, voice file caching for offline PWA support. | Needed |
+
+**How to sponsor:**
+- Reach out via [Issues](../../issues) or email (listed in profile)
+- API credit grants, pro-plan sponsorships, or open-source program invitations all help
+- Every sponsor gets credited in the app and in this README
+
+> If your company builds tools that can make education better, we'd love to partner. This project reaches zero revenue — every credit goes directly into content for kids.
+
+---
+
+## Contributors Welcome
+
+We're looking for people who care about education, curiosity, and building things that matter for kids.
+
+**Areas where we need help:**
+
+| Area | What we need | Good for |
+|------|-------------|----------|
+| **Scalability brainstorming** | How do we go from 3 stories to 3,000? Content pipelines, caching strategies, CDN architecture for global delivery. | Backend / infra engineers |
+| **Content writing** | Draft new 7-stage stories on topics kids love — space, dinosaurs, cooking, music, sports, the ocean. | Writers, educators, subject enthusiasts |
+| **Accessibility** | Screen reader testing, motor-impaired navigation, cognitive load review, WCAG compliance. | A11y specialists |
+| **Illustration & design** | Card visual templates, topic cover art direction, animation design for transitions. | Designers, illustrators |
+| **Multi-language** | Hindi first, then regional languages. Translation + cultural adaptation, not just word swaps. | Translators, localization experts |
+| **AI safety for kids** | Content moderation pipelines, age-appropriate language filters, bias detection in generated content. | ML engineers, child safety researchers |
+| **Educator perspective** | Classroom integration ideas, curriculum alignment, assignment templates ("follow 5 connections, write about your path"). | Teachers, homeschool parents |
+
+**How to contribute:**
+1. Pick an [Issue](../../issues) or open one with your idea
+2. Fork → branch → PR (keep PRs focused and small)
+3. Join the discussion — even feedback-only contributions matter
+
+---
+
+## Explore Further
+
+Every SearchSaga story is rooted in real knowledge. Here are curated links to go deeper on the topics in our prototype — filtered for quality and age-appropriateness.
+
+### 📷 How the Camera Grew Up
+
+| Topic | Wikipedia | Grokipedia / xAI | Other |
+|-------|-----------|-------------------|-------|
+| Camera obscura | [Camera obscura](https://en.wikipedia.org/wiki/Camera_obscura) | [Ask Grok: "How did the camera obscura work?"](https://x.com/i/grok?text=How+did+the+camera+obscura+work) | — |
+| Daguerreotype | [Daguerreotype](https://en.wikipedia.org/wiki/Daguerreotype) | [Ask Grok: "What was the first photograph?"](https://x.com/i/grok?text=What+was+the+first+photograph+ever+taken) | — |
+| Film photography | [Photographic film](https://en.wikipedia.org/wiki/Photographic_film) | [Ask Grok: "How does film capture light?"](https://x.com/i/grok?text=How+does+film+photography+capture+light) | — |
+| Digital cameras | [Digital camera](https://en.wikipedia.org/wiki/Digital_camera) | [Ask Grok: "How do phone cameras work?"](https://x.com/i/grok?text=How+do+phone+cameras+work+for+kids) | — |
+| Photography history | [History of photography](https://en.wikipedia.org/wiki/History_of_photography) | [Ask Grok: "Timeline of camera evolution"](https://x.com/i/grok?text=Timeline+of+camera+evolution+for+kids) | — |
+
+### 🔮 How Glass Grew Up
+
+| Topic | Wikipedia | Grokipedia / xAI | Other |
+|-------|-----------|-------------------|-------|
+| Glass | [Glass](https://en.wikipedia.org/wiki/Glass) | [Ask Grok: "How is glass made from sand?"](https://x.com/i/grok?text=How+is+glass+made+from+sand+explain+for+kids) | — |
+| Stained glass | [Stained glass](https://en.wikipedia.org/wiki/Stained_glass) | [Ask Grok: "How were stained glass windows made?"](https://x.com/i/grok?text=How+were+stained+glass+windows+made) | — |
+| Optical lens | [Lens (optics)](https://en.wikipedia.org/wiki/Lens_(optics)) | [Ask Grok: "How do lenses bend light?"](https://x.com/i/grok?text=How+do+lenses+bend+light+simple+explanation) | — |
+| Fiber optics | [Optical fiber](https://en.wikipedia.org/wiki/Optical_fiber) | [Ask Grok: "How does the internet travel through glass?"](https://x.com/i/grok?text=How+does+internet+travel+through+glass+fiber+optics) | — |
+| Gorilla Glass | [Gorilla Glass](https://en.wikipedia.org/wiki/Gorilla_Glass) | [Ask Grok: "What makes phone screens so strong?"](https://x.com/i/grok?text=What+makes+phone+screens+so+strong+Gorilla+Glass) | — |
+
+### 🏖️ How Sand Became Glass
+
+| Topic | Wikipedia | Grokipedia / xAI | Other |
+|-------|-----------|-------------------|-------|
+| Sand | [Sand](https://en.wikipedia.org/wiki/Sand) | [Ask Grok: "What is sand actually made of?"](https://x.com/i/grok?text=What+is+sand+actually+made+of+for+kids) | — |
+| Silicon | [Silicon](https://en.wikipedia.org/wiki/Silicon) | [Ask Grok: "Why is silicon so important?"](https://x.com/i/grok?text=Why+is+silicon+so+important+for+technology) | — |
+| Semiconductors | [Semiconductor](https://en.wikipedia.org/wiki/Semiconductor) | [Ask Grok: "How do microchips work?"](https://x.com/i/grok?text=How+do+microchips+work+simple+explanation) | — |
+| Silicon Valley | [Silicon Valley](https://en.wikipedia.org/wiki/Silicon_Valley) | [Ask Grok: "Why is it called Silicon Valley?"](https://x.com/i/grok?text=Why+is+it+called+Silicon+Valley) | — |
+| Fulgurite | [Fulgurite](https://en.wikipedia.org/wiki/Fulgurite) | [Ask Grok: "What happens when lightning hits sand?"](https://x.com/i/grok?text=What+happens+when+lightning+hits+sand) | — |
+
+> **For parents & educators:** These links are pre-filtered starting points. Wikipedia articles can be read in [Simple English](https://simple.english.wikipedia.org/) for younger readers. Grok queries are phrased at an 8–12 reading level.
+
+---
+
 ## Community & Feedback
 
-SearchSaga is being built in the open. We believe the best way to build for kids is to listen — to kids, parents, and educators.
+We believe the best way to build for kids is to listen — to kids, parents, and educators.
 
 **How to share feedback:**
 - Try the demo and tell us what surprised you
@@ -161,3 +256,11 @@ pnpm type-check
 ## License
 
 All rights reserved. This project is not open source yet — shared for feedback and demonstration purposes.
+
+---
+
+<p align="center">
+  <b>SearchSaga</b> — Subjects, Re-imagined for the Age of AI.
+  <br/>
+  <sub>Built with curiosity. For curious minds.</sub>
+</p>
