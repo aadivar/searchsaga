@@ -273,7 +273,7 @@ pnpm type-check
 
 ## License
 
-All rights reserved. This project is not open source yet — shared for feedback and demonstration purposes.
+[MIT License](LICENSE)
 
 ---
 
