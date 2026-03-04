@@ -17,7 +17,6 @@ SearchSaga turns subjects into connected adventures. Every topic unfolds as a 7-
 - [Tech Stack](#tech-stack)
 - [Roadmap](#roadmap)
 - [Building in Open](#building-in-open)
-- [Sponsorship Needed](#sponsorship-needed)
 - [Contributors Welcome](#contributors-welcome)
 - [Explore Further](#explore-further)
 - [Community & Feedback](#community--feedback)
@@ -150,28 +149,6 @@ This isn't a startup with a secret roadmap. It's an experiment in whether AI can
 - Every feature is discussed in [Issues](../../issues) before it's built
 - Architecture decisions are documented in `docs/SPECS.md`
 - Progress is tracked transparently in `docs/PROGRESS.md`
-
----
-
-## Sponsorship Needed
-
-SearchSaga is free forever for kids — no pro plans, no paywalls, no subscriptions. But building at this quality has real infrastructure costs. We need sponsors and credits to keep it that way.
-
-| What | Why | Status |
-|------|-----|--------|
-| **Claude Max / Anthropic API** | Powers the 7-agent content pipeline — Researcher, Storyteller, Card Architect, Connector, Editor, Visual Architect, Publisher. Every story requires multiple Claude calls for fact-checking, age-appropriate rewriting, and safety review. | Needed |
-| **ElevenLabs** | Warm, expressive TTS narration per card — the "older cousin" voice that reads stories aloud. Essential for younger readers (ages 8–9) and accessibility. | Needed |
-| **Sanity.io** | Headless CMS hosting for structured story content — cards, stages, cousin links, media. The editorial backbone that lets non-developers contribute stories. | Needed |
-| **Grok (xAI)** | Image generation for visual cards — infographics, illustrated moments, and topic cover art. Style-locked prompts ensure kid-safe, consistent visuals. | Needed |
-| **Vercel / Hosting** | Frontend deployment, edge caching, preview deployments for PR reviews. | Needed |
-| **Domain & CDN** | Custom domain, asset delivery, voice file caching for offline PWA support. | Needed |
-
-**How to sponsor:**
-- Reach out via [Issues](../../issues) or email (listed in profile)
-- API credit grants, pro-plan sponsorships, or open-source program invitations all help
-- Every sponsor gets credited in the app and in this README
-
-> SearchSaga will never charge kids or families. If your company builds tools that can make education better, we'd love to partner. Every credit goes directly into content for kids.
 
 ---
 
